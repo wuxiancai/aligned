@@ -2,7 +2,9 @@
 
 curl -L https://raw.githubusercontent.com/yetanotherco/aligned_layer/main/batcher/aligned/install_aligned.sh | bash
 
+source .bashrc << EOF
 source .bashrc
+EOF
 
 curl -L https://raw.githubusercontent.com/yetanotherco/aligned_layer/main/batcher/aligned/get_proof_test_files.sh | bash
 source .bashrc
